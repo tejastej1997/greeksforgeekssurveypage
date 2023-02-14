@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    background-color: #78e08f;
+    font-family: 'Arvo', serif;
+}
+
+.content {
+    background-color: white;
+    width: 40%;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #78e08f;
+    margin-bottom: 20px;
+}
+
+.container input {
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.options span label {
+    margin-left: 8px;
+}
+
+.commentbox {
+    margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    text-align: center;
+
+}
+
+.radio {
+    display: flex;
+    flex-direction: column;
+}
+
+.container span input {
+    margin-bottom: 20px;
+}
+
+input,
+select,
+textarea {
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid lightslategrey;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px;
+    margin: 20px;
+    width: 100px;
+    background-color: #78e08f;
+    border-radius: 5px;
+    border: 1px solid white;
+    transition: 1s;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    border: 1px solid black;
+
+}
+
+label:hover {
+    color: #30336b;
+}
+
+label {
+    transition: 1s;
+}
+
+select {
+    font-family: 'Arvo', serif;
+}
+
+input[value="SUBMIT"],
+input[value="RESET"] {
+    font-family: 'Arvo', serif;
+    color: #30336b;
+}
+
+.commentbox label {
+    display: block;
+    margin-bottom: 15px;
+
+}
+
+@media screen and (max-width:576px) {
+    .content {
+        width: 60%;
+    padding: 40px;
+
+
+    }
+    .content h1
+    {
+        font-size: 20px;
+    }
+
+
+}

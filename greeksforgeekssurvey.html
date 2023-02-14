@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeks For Geeks | Survey</title>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=EB+Garamond&family=Montserrat:ital,wght@0,100;1,300&family=Nerko+One&family=Open+Sans&family=Roboto+Slab:wght@300&display=swap'); </style>
+    <link rel="stylesheet" href="./greeksforgeeks.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Greeks For Geeks Survey</h1>
+        <form action="#">
+            <div class="container">
+            <span><label for="name">Name:</label><br><input type="text" placeholder="Enter Your Name" required></span>
+            <span><label for="email">Email:</label><br><input type="email" placeholder="Enter Your Email" required></span>
+            <span><label for="number">Age:</label><br><input type="number" min="1" max="100" placeholder="Enter Your Age" required></span>
+            <span>
+            <label for="name">Which option describes best describes you?</label>
+            <select name="" id="" required>
+                <option value="">Select Option</option>
+                <option value="">Student</option>
+                <option value="">Employee</option>
+                <option value="">Business Person</option>
+                <option value="">Others</option>
+            </select>
+            </span><br>
+           </div>
+            <span class="radio" >
+                <label for="name">Would You Recommand Greeks for geeks for a friend?</label>
+                <span><input type="radio" id="y" name="opt"><label for="y">Yes</label></span>
+                <span><input type="radio" id="n" name="opt"><label for="n">No</label></span>
+                <span><input type="radio" id="m" name="opt"><label for="m">May Be</label></span>
+            </span><br>
+           <span>
+            <label for="">Languages and Frameworks Known(check all that apply)</label>
+            <div class="options">
+            <span><input type="checkbox" id="c"><label  for="c">c</label></span>
+            <span><input type="checkbox" id="c++"><label  for="c++">c++</label></span>
+            <span><input type="checkbox" id="c#"><label  for="c#">c#</label></span>
+            <span><input type="checkbox" id="java"><label  for="java">Java</label></span>
+            <span><input type="checkbox" id="phy"><label  for="phy">Python</label></span>
+            <span><input type="checkbox" id="js"><label  for="js">Java Script</label></span>
+            <span><input type="checkbox" id="react"><label  for="react">React</label></span>
+            <span><input type="checkbox" id="d"><label  for="d">Django</label></span>
+            <span><input type="checkbox" id="spring"><label  for="spring">Spring</label></span>
+            </div>
+            </span>
+            <div class="commentbox">
+                <label for="comments">Any Comments or Suggestions?</label>
+                <textarea name="comments" id="" cols="50" rows="5">Write your comment here</textarea>
+            </div>
+            <div class="button">
+                <input type="submit" value="SUBMIT">
+                <input type="reset" value="RESET">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
